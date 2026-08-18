@@ -1,0 +1,23 @@
+{
+  "name": "playwright-capstone-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vamsikrishna9698/Playwright-Capstone-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Vamsikrishna9698/Playwright-Capstone-Project/issues"
+  },
+  "homepage": "https://github.com/Vamsikrishna9698/Playwright-Capstone-Project#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.2.0"
+  }
+}
