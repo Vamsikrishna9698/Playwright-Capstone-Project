@@ -1,9 +1,16 @@
 
 {
-  "formData": {
-    "contactName": "Vamsikrishna",
-    "contactNumber": "8374761178",
-    "pickUpDate": "08/25/2026",
-    "paymentMethod": "cash on delivery"
+"formValidationData": {
+"FirstName": "Vamsikrishna",
+"LastName": "Alasandalapalli",
+"Email": "Vamsi123@gmail.com",
+"Gender": "Male",
+"Mobile": "8548745587",
+"DOB": "22 Aug 2026",
+"Sub": "Playwright Automation",
+"Hobbies": "Sports",
+"CurrentAddress": "Hyderabad",
+"State": "Telangana",
+"City": "Hyderabad"
   }
 }
