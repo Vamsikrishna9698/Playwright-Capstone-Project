@@ -4,8 +4,8 @@ import TestData from "../Helpers/testData.json";
 
 test("formvalidation", async({page}) => {
 await page.goto("https://demoqa.com/automation-practice-form");
-await page.locator("#firstName").fill(TestData.formValidationData.FirstName);  //FirstName with given data from testData.json data
-await page.locator("#lastName").fill(TestData.formValidationData.LastName);  // LastName with given data from testData.json date
+await page.locator("#firstName").fill(TestData.formValidationData.FirstName);  
+await page.locator("#lastName").fill(TestData.formValidationData.LastName);  
 await page.locator("#userEmail").fill(TestData.formValidationData.Email); 
 await page.locator("#gender-radio-1").click();
 await page.locator("#userNumber").fill(TestData.formValidationData.Mobile);
