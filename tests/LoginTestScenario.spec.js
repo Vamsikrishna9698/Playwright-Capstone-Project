@@ -7,14 +7,14 @@ dotenv.config({path: "./env/.env"});
 test ("Login Functionality", async({page}) => {
 
     
-    await page.goto("https://practice.expandtesting.com/login"); //Verify Login Page URL
+    await page.goto("https://practice.expandtesting.com/login");
     await expect(page).toHaveURL("https://practice.expandtesting.com/login");
-    await expect(page.locator("h1")).toHaveText("Test Login page for Automation Testing Practice"); //Verify Login Page Heading
+    await expect(page.locator("h1")).toHaveText("Test Login page for Automation Testing Practice");
     console.log("Login page heading verified");
-    await page.locator("#username").fill(process.env.LOGIN_USERNAME); //verify username credentials
-    await page.locator("#password").fill(process.env.LOGIN_PASSWORD);  //verify password credentials
-    await page.locator("#submit-login").click();  // login button click
-    await expect(page).toHaveURL("https://practice.expandtesting.com/secure"); // after successfull login
+    await page.locator("#username").fill(process.env.LOGIN_USERNAME);
+    await page.locator("#password").fill(process.env.LOGIN_PASSWORD);
+    await page.locator("#submit-login").click();
+    await expect(page).toHaveURL("https://practice.expandtesting.com/secure");
     console.log("Successfully showing URL");
     
 });
