@@ -15,6 +15,6 @@ test ("Login Functionality", async({page}) => {
     await page.locator("#password").fill(process.env.LOGIN_PASSWORD);
     await page.locator("#submit-login").click();
     await expect(page).toHaveURL("https://practice.expandtesting.com/secure");
-    console.log("Successfully showing URL");
+    console.log("Login Successfully and showing URL");
     
 });
