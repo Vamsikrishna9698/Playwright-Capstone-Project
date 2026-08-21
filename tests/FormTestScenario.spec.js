@@ -20,4 +20,4 @@ await page.locator("#city").click();
 await page.getByText(TestData.formValidationData.City).click();
 await page.locator("#submit").click();
 console.log("Form Validation completed");
-});
+}); 
